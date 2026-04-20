@@ -1,0 +1,27 @@
+dependencies:
+  idf:
+    source:
+      type: idf
+    version: 5.5.2
+  myGPIO:
+    component_hash: 6e9caf0ea609a17e939511db326c103bd5febeaca93f33458b9d9cced5b11d4b
+    dependencies: []
+    source:
+      git: git@github.com:KNaelaerts/ESP32_Periferie.git
+      path: components/myGPIO
+      type: git
+    version: a1623523337cabfc1783a4fe8213e07b7b3ea8f5
+  myUART:
+    component_hash: dc639225350069227544c7eaeabda6715a352042eb0608d5e7afdac4965b7e0c
+    dependencies: []
+    source:
+      git: git@github.com:KNaelaerts/ESP32_Periferie.git
+      path: components/myUART
+      type: git
+    version: a1623523337cabfc1783a4fe8213e07b7b3ea8f5
+direct_dependencies:
+- myGPIO
+- myUART
+manifest_hash: 06089ab66822a36c1990f34091ac5241c5e758c0e72f8f2db5e3b5e295a2967a
+target: esp32
+version: 2.0.0
